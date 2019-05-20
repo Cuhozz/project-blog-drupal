@@ -1,0 +1,26 @@
+uuid: 60982c32-f7f6-420b-8bed-242055dc66b0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.post
+  module:
+    - text
+id: node.post.body
+field_name: body
+entity_type: node
+bundle: post
+label: Body
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    summary: ''
+    value: "<h2>Escribe aquí tu encabezado.</h2>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Aquí verán el contenido de tu post.</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

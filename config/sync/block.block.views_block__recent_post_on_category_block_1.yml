@@ -1,0 +1,31 @@
+uuid: 3feaf611-fc52-40cc-b905-7d3e7812778c
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.recent_post_on_category
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__recent_post_on_category_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:recent_post_on_category-block_1'
+settings:
+  id: 'views_block:recent_post_on_category-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/security\r\n/modules\r\n/distributions\r\n"
+    negate: false
+    context_mapping: {  }

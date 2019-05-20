@@ -1,0 +1,11 @@
+uuid: 5568cd59-148c-49ae-b155-10753d2532f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.imagen_post
+id: media.imagen_post
+target_entity_type_id: media
+target_bundle: imagen_post
+default_langcode: site_default
+language_alterable: false

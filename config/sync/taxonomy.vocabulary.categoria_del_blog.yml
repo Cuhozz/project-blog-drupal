@@ -1,0 +1,8 @@
+uuid: fe1d1cad-acfe-4109-9f61-f02c444a52f6
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categoría del blog'
+vid: categoria_del_blog
+description: ''
+weight: 0

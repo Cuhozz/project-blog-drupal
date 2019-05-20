@@ -1,0 +1,29 @@
+uuid: 65ff1cb6-2dfc-4e9f-99ad-6ed9d2d3d211
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palabras_calve
+    - node.type.post
+    - taxonomy.vocabulary.categoria_del_blog
+id: node.post.field_palabras_calve
+field_name: field_palabras_calve
+entity_type: node
+bundle: post
+label: 'Blog category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria_del_blog: categoria_del_blog
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

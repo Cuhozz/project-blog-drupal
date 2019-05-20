@@ -1,0 +1,21 @@
+uuid: e113ca64-dbb3-4917-870e-4e7ebcc58e4a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_key_word
+    - node.type.post
+  module:
+    - metatag
+id: node.post.field_key_word
+field_name: field_key_word
+entity_type: node
+bundle: post
+label: 'key word'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

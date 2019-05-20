@@ -1,0 +1,11 @@
+uuid: 777a9347-d38d-46f5-908e-4900b0e8eb7e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_del_blog
+id: taxonomy_term.categoria_del_blog
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_del_blog
+default_langcode: site_default
+language_alterable: false

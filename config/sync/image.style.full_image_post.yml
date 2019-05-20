@@ -1,0 +1,15 @@
+uuid: 1348cc31-94af-4f86-80e4-f2618ef7d1be
+langcode: es
+status: true
+dependencies: {  }
+name: full_image_post
+label: 'Full image post'
+effects:
+  bc4948b0-cf50-4c16-935d-463d570a925d:
+    uuid: bc4948b0-cf50-4c16-935d-463d570a925d
+    id: image_scale
+    weight: 1
+    data:
+      width: 540
+      height: 260
+      upscale: false
