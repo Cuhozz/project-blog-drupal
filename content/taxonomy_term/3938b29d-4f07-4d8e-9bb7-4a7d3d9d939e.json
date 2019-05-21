@@ -1,0 +1,111 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/security?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria_del_blog"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria_del_blog\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3938b29d-4f07-4d8e-9bb7-4a7d3d9d939e"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categoria_del_blog"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-15T16:15:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "name": [
+        {
+            "value": "Security",
+            "lang": "es"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>This term is for security topics<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>This term is for security topics<\/p>",
+            "lang": "es"
+        }
+    ],
+    "weight": [
+        {
+            "value": 2
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria_del_blog\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-15T17:07:28+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Security | Blogazo Drupazo",
+                "canonical_url": "http:\/\/default\/security",
+                "description": "This term is for security topics"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/security",
+            "pid": 2,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ]
+}
